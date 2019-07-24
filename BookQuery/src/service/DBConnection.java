@@ -20,9 +20,9 @@ public class DBConnection {
 	 */
 	public static Connection getConnection(){
 		
-		String url = "jdbc:mysql://129.204.178.246:3306/book?useUnicode=true&characterEncoding=utf-8&useSSL=false";    //
+		String url = "jdbc:mysql://XXX.XXX.XXX.XXX:3306/book?useUnicode=true&characterEncoding=utf-8&useSSL=false";    //
 		String username = "user03";    //设置数据库用户名
-		String password = "17865426269";    //设置数据库密码
+		String password = "XXXXXX";    //设置数据库密码
 		
 		try{
 			Class.forName( "com.mysql.jdbc.Driver" );    //添加 mysql 驱动
